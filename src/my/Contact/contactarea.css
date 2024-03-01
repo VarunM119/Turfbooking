@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-area {
+    position: absolute;
+    background: linear-gradient(rgb(255, 0, 162),rgb(179, 171, 191),rgb(17, 99, 126));
+    height: 100vh;
+    width: 100%;  
+}
+.membership
+{
+    position: absolute;
+    font-size: 48px;
+    top: 100px;
+    left: 500px;
+    color: darkred;
+    text-shadow: whitesmoke 2px 2px 4px;
+}
+.contact-thro {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    top: 250px;
+    left: 500px;
+    flex-wrap: wrap;
+}
+
+.contact-thro a {
+    width: 120px;
+    height: 120px;
+    background-color: cadetblue;
+    border-radius: 50px;
+}
+
+#c1 {
+    background-image: url(./images/whatsapp_3991765.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#c1:hover 
+{
+    transform: scale(0.8);
+    transition: ease-in 0.2s;
+    display: block;
+}
+
+#c2 {
+    background-image: url(./images/facebook_2504903.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#c2:hover
+{
+    transform: scale(0.8);
+    transform-style:inherit;
+    transition: ease-in 0.2s;
+}
+#c3 {
+    background-image: url(./images/instagram_1409946.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#c3:hover
+{
+    transform: scale(0.8);
+    transform-style:inherit;
+    transition: ease-in 0.2s;
+}
+#c4 {
+    background-image: url(./images/youtube_3256012.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#c4:hover
+{
+    transform: scale(0.8);
+    transform-style:inherit;
+    transition: ease-in 0.2s;
+} 
+@media (max-width:1200px)
+{
+    .contact-area {
+        background: linear-gradient(rgba(191, 255, 0, 0.509),rgb(183, 191, 171),rgb(26, 17, 126));
+          
+    }
+    .membership
+    {
+        font-size: 40px;
+        top: 100px;
+        left: 300px;
+        color: rgb(0, 2, 139);
+        text-shadow: rgb(225, 213, 213) 2px 2px 4px; 
+    }
+    .contact-thro {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        top: 250px;
+        left: 280px;
+    }
+}
+@media (max-width:768px){
+    .contact-area {
+        background: linear-gradient( rgba(255, 0, 144, 0.509),rgb(70, 43, 219),rgb(126, 111, 17));
+    }
+    .membership
+    {
+        font-size: 40px;
+        top: 100px;
+        left: 120px;
+        color: rgb(235, 243, 245);
+        text-shadow: rgb(70, 10, 10) 2px 2px 4px; 
+    }
+    .contact-thro {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        top: 250px;
+        left: 90px;
+    }
+} 
+@media (max-width:500px){
+    .contact-area {
+        background: linear-gradient( rgba(255, 0, 144, 0.509),rgb(70, 43, 219),rgb(126, 111, 17));
+    }
+    .membership
+    {
+        font-size: 32px;
+        top: 120px;
+        left: 45px;
+        text-align: center;
+        color: rgb(235, 243, 245);
+        text-shadow: rgb(70, 10, 10) 2px 2px 4px; 
+    }
+    .contact-thro {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        top: 250px;
+        left: 0px;
+    }
+}

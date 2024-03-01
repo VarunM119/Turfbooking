@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sport-display {
+    position: absolute;
+    background: linear-gradient(white, yellow, grey);
+    width: 100%;
+    height: 100vh;
+}
+
+.sport-type {
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 80%;
+    height: 400px;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+
+
+
+.grid-cricket {
+    background-image: url(./images/cricket\ icon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid-cricket:hover #p1 {
+    display: block;
+    animation: scale-up-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+@keyframes scale-up-hor-right {
+    0% {
+        transform: scaleX(0.4);
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 100% 100%;
+    }
+}
+
+
+
+.grid-football {
+    background-image: url(./images/football\ icon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.grid-football:hover #p2 {
+    display: block;
+    animation: scale-up-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+@keyframes scale-up-hor-right {
+    0% {
+        transform: scaleX(0.4);
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 100% 100%;
+    }
+}
+
+.grid-volleyball {
+    background-image: url(./images/volleyball.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.grid-volleyball:hover #p3 {
+    display: block;
+    animation: scale-up-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+@keyframes scale-up-hor-right {
+    0% {
+        transform: scaleX(0.4);
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 100% 100%;
+    }
+}
+
+.grid-badminton {
+    background-image: url(./images/badminton.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.grid-badminton:hover #p4 {
+    display: block;
+    animation: scale-up-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+}
+
+@keyframes scale-up-hor-right {
+    0% {
+        transform: scaleX(0.4);
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 100% 100%;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .sport-display {
+        position: absolute;
+        background: linear-gradient(rgb(103, 70, 184), rgb(225, 225, 80), rgb(218, 80, 80));
+        width: 100%;
+        height: 100vh;
+    }
+
+    .sport-type {
+        margin-top: 150px;
+        margin-left: 120px;
+        width: 80%;
+        height: 360px;
+    }
+
+   
+
+}
+
+@media (max-width:768px) {
+    .sport-display {
+        position: absolute;
+        background: linear-gradient(rgb(255, 255, 255), rgb(90, 90, 7), rgb(128, 128, 128));
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .sport-type {
+        margin-top: 80px;
+        margin-left: 70px;
+        width: 80%;
+        height: 600px;
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .sport-display {
+        position: absolute;
+        background: linear-gradient(rgb(47, 78, 141), rgb(232, 232, 100), rgb(99, 53, 105));
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .sport-type {
+        margin-top: 80px;
+        margin-left: 50px;
+        width: 80%;
+        height: 600px;
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: auto auto;
+    }
+    
+}
